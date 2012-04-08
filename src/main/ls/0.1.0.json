@@ -1,0 +1,23 @@
+
+{
+ "organization":"com.eed3si9n",
+ "name":"sbt-man",
+ "version":"0.1.0",
+ "description":"sbt plugin to look up scaladoc",
+ "site":"",
+ "tags":["sbt","manual"],
+ "docs":"",
+ "licenses": [],
+ "resolvers": ["http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases"],
+ "dependencies": [{
+   "organization":"net.databinder",
+   "name": "dispatch-core",
+   "version": "0.8.5"
+  },{
+   "organization":"net.databinder",
+   "name": "dispatch-lift-json",
+   "version": "0.8.5"
+  }],
+ "scalas": ["2.9.1"],
+ "sbt": true
+}
