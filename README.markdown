@@ -25,7 +25,7 @@ It searches the scaladoc of Scala standard library and Scalaz using [Scalex][1],
 
 ## license
 
-Anything I copied from [Scalex-CLI] is licensed using Apache v2 license.
+Anything I copied from [Scalex-CLI][2] is licensed using Apache v2 license.
 Everything else is licensed using MIT License.
 
   [1]: http://scalex.org/
