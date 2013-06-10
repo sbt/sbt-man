@@ -38,3 +38,7 @@ credentials += Credentials(Path.userHome / ".ivy2" / ".sbtcredentials")
 
 // externalResolvers in LsKeys.lsync := Seq(
 //   "sbt-plugin-releases" at "http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases")
+
+sbtVersion in Global := "0.13.0-Beta2" 
+
+scalaVersion in Global := "2.10.2-RC2" 
