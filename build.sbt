@@ -6,6 +6,10 @@ organization := "com.eed3si9n"
 
 version := "0.1.0"
 
+sbtVersion in Global := "0.13.0-RC1" 
+
+scalaVersion in Global := "2.10.2" 
+
 description := "sbt plugin to look up scaladoc"
 
 libraryDependencies ++= Seq("net.databinder" % "dispatch-core_2.9.1" % "0.8.5",
@@ -38,7 +42,3 @@ credentials += Credentials(Path.userHome / ".ivy2" / ".sbtcredentials")
 
 // externalResolvers in LsKeys.lsync := Seq(
 //   "sbt-plugin-releases" at "http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases")
-
-sbtVersion in Global := "0.13.0-Beta2" 
-
-scalaVersion in Global := "2.10.2-RC2" 
