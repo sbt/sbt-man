@@ -37,9 +37,9 @@ publishTo <<= (version) { version: String =>
 
 credentials += Credentials(Path.userHome / ".ivy2" / ".sbtcredentials")
 
-// lsSettings
+lsSettings
 
-// LsKeys.tags in LsKeys.lsync := Seq("sbt", "manual")
+LsKeys.tags in LsKeys.lsync := Seq("sbt", "manual")
 
-// externalResolvers in LsKeys.lsync := Seq(
-//   "sbt-plugin-releases" at "http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases")
+externalResolvers in LsKeys.lsync := Seq(
+  "sbt-plugin-releases" at "http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases")
