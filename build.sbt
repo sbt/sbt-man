@@ -4,7 +4,7 @@ name := "sbt-man"
 
 organization := "com.eed3si9n"
 
-version := "0.1.1-SNAPSHOT"
+version := "0.1.1"
 
 sbtVersion in Global := "0.13.0-RC3" 
 
