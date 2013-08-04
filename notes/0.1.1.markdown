@@ -1,0 +1,3 @@
+## for sbt 0.13
+
+sbt-man 0.1.1 changes its dependency to Dispatch 0.11.0 for sbt 0.13.

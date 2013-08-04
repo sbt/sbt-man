@@ -4,12 +4,15 @@ sbt-man
 sbt-man is an sbt plugin for looking up scaladoc.
 
 ## how to setup
-Add the following to your `~/.sbt/plugins/build.sbt`:
+
+For sbt 0.12, add the following to your `~/.sbt/plugins/build.sbt`:
 
     addSbtPlugin("com.eed3si9n" % "sbt-man" % "0.1.0")
-    
-    resolvers += Resolver.url("sbt-plugin-releases", new URL("http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/"))(Resolver.ivyStylePatterns)
 
+For sbt 0.13, add the following to your `~/.sbt/0.13/plugins/man.sbt`:
+
+    addSbtPlugin("com.eed3si9n" % "sbt-man" % "0.1.1")
+    
 ## how to use
 
 The above automatically adds `man` command.

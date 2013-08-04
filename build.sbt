@@ -4,17 +4,18 @@ name := "sbt-man"
 
 organization := "com.eed3si9n"
 
-version := "0.1.0"
+version := "0.1.1-SNAPSHOT"
 
-sbtVersion in Global := "0.13.0-RC1" 
+sbtVersion in Global := "0.13.0-RC3" 
 
 scalaVersion in Global := "2.10.2" 
 
 description := "sbt plugin to look up scaladoc"
 
-libraryDependencies ++= Seq("net.databinder" % "dispatch-core_2.9.1" % "0.8.5",
-  "net.databinder" % "dispatch-lift-json_2.9.1" % "0.8.5")
-  
+libraryDependencies ++= Seq("net.databinder.dispatch" %% "dispatch-core" % "0.11.0",
+  "net.databinder.dispatch" %% "dispatch-json4s-native" % "0.11.0",
+  "org.slf4j" % "slf4j-nop" % "1.6.2")
+
 scalacOptions := Seq("-deprecation", "-unchecked")
 
 publishArtifact in (Compile, packageBin) := true
